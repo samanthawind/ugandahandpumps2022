@@ -1,0 +1,61 @@
+﻿bh_id,pump_type,pipe_mat,rehabbed,num_pipes,yrs_install,yrs_rehab,yrs_min,round
+101,U2 / India Mark 2,Stainless steel,Yes,14,66,23,23,1
+102,U2 / India Mark 2,PVC (plastic),No,12,1.133470178,,1.133470178,1
+103,U2 / India Mark 2,Galvanized iron (GI),Yes,12,10.91666698,2.583333254,2.583333254,1
+104,U2 / India Mark 2,Stainless steel,Yes,8,67,2.51060915,2.51060915,1
+105,U2 / India Mark 2,Galvanized iron (GI),No,5,5.253935814,,5.253935814,1
+106,U2 / India Mark 2,Galvanized iron (GI),No,5,7.373032093,,7.373032093,1
+107,U2 / India Mark 2,Galvanized iron (GI),Yes,12,87,0.51745379,0.51745379,1
+108,U2 / India Mark 2,Galvanized iron (GI),No,6,35,,35,1
+109,U2 / India Mark 2,Galvanized iron (GI),Yes,16,35,15.45516777,15.45516777,1
+110,U3 / India Mark 3,PVC (plastic),No,,6.072553158,,6.072553158,1
+111,U2 / India Mark 2,Galvanized iron (GI),No,5,14,,14,1
+112,U2 / India Mark 2,Galvanized iron (GI),No,17,5.541409969,,5.541409969,1
+113,U2 / India Mark 2,PVC (plastic),No,8,3.285420895,,3.285420895,1
+114,U2 / India Mark 2,Galvanized iron (GI),Yes,10,15.35112953,4.594113827,4.594113827,1
+115,U2 / India Mark 2,Stainless steel,No,7,1.50581789,,1.50581789,1
+116,U2 / India Mark 2,Stainless steel,No,6,1.634496927,,1.634496927,1
+117,U2 / India Mark 2,Galvanized iron (GI),No,4,6.001368999,,6.001368999,1
+118,U2 / India Mark 2,Galvanized iron (GI),No,16,4.916666508,,4.916666508,1
+119,U2 / India Mark 2,PVC (plastic),No,14,0.536618769,,0.536618769,1
+120,U2 / India Mark 2,PVC (plastic),No,12,3.329226494,,3.329226494,1
+121,U2 / India Mark 2,Galvanized iron (GI),No,11,,,,1
+122,U2 / India Mark 2,Galvanized iron (GI),Yes,6,11.43326473,2.869267702,2.869267702,1
+123,U2 / India Mark 2,Galvanized iron (GI),Yes,8,20.1697464,0.777549624,0.777549624,1
+124,U2 / India Mark 2,Galvanized iron (GI),No,14,1.416666627,,1.416666627,1
+125,U2 / India Mark 2,PVC (plastic),No,7,3.331964493,,3.331964493,1
+126,U2 / India Mark 2,Galvanized iron (GI),Yes,5,39,5.760437965,5.760437965,1
+127,U2 / India Mark 2,Galvanized iron (GI),No,8,5.426420212,,5.426420212,1
+128,U2 / India Mark 2,PVC (plastic),No,7,3.337440014,,3.337440014,1
+201,U2 / India Mark 2,PVC (plastic),No,6,4.320328712,,4.320328712,2
+202,U2 / India Mark 2,Galvanized iron (GI),Yes,3,7.000684261,3.293634415,3.293634415,2
+203,U2 / India Mark 2,Galvanized iron (GI),Yes,4,6.98699522,0.083333336,0.083333336,2
+204,U2 / India Mark 2,PVC (plastic),Yes,1,6.333333492,2.333333254,2.333333254,2
+205,U2 / India Mark 2,Galvanized iron (GI),No,6,7.195071697,,7.195071697,2
+206,U2 / India Mark 2,Galvanized iron (GI),No,8,5.111567497,,5.111567497,2
+207,U2 / India Mark 2,Galvanized iron (GI),Yes,6,14.42026043,2,2,2
+208,U2 / India Mark 2,PVC (plastic),No,6,4.358658314,,4.358658314,2
+209,U2 / India Mark 2,Stainless steel,No,12,1.666666627,,1.666666627,2
+210,U2 / India Mark 2,Galvanized iron (GI),No,10,4.833333492,,4.833333492,2
+211,U2 / India Mark 2,Galvanized iron (GI),No,8,37,,37,2
+212,U2 / India Mark 2,Galvanized iron (GI),Yes,5,,1.5,1.5,2
+213,U2 / India Mark 2,Galvanized iron (GI),No,5,19.08333397,,19.08333397,2
+214,U2 / India Mark 2,Galvanized iron (GI),No,7,9.535934448,,9.535934448,2
+215,U2 / India Mark 2,Stainless steel,Yes,3,38.08333206,4.083333492,4.083333492,2
+216,U2 / India Mark 2,Galvanized iron (GI),No,4,6,,6,2
+217,U2 / India Mark 2,Galvanized iron (GI),Yes,13,64,5.322381973,5.322381973,2
+218,U2 / India Mark 2,Galvanized iron (GI),Yes,12,8,1.916666627,1.916666627,2
+219,U2 / India Mark 2,Galvanized iron (GI),No,7,5.144421577,,5.144421577,2
+220,U2 / India Mark 2,PVC (plastic),No,6,3.622176647,,3.622176647,2
+221,U2 / India Mark 2,Galvanized iron (GI),Yes,12,12,0.555783689,0.555783689,2
+222,U2 / India Mark 2,Galvanized iron (GI),No,8,2.562628269,,2.562628269,2
+223,U2 / India Mark 2,Galvanized iron (GI),No,9,10.52977371,,10.52977371,2
+224,U2 / India Mark 2,Galvanized iron (GI),No,9,6,,6,2
+225,U2 / India Mark 2,Stainless steel,Yes,14,15,3.323750973,3.323750973,2
+226,U2 / India Mark 2,Galvanized iron (GI),No,14,6.447638512,,6.447638512,2
+227,U2 / India Mark 2,PVC (plastic),Yes,7,12,3.95345664,3.95345664,2
+228,U2 / India Mark 2,Stainless steel,No,16,2.576317549,,2.576317549,2
+229,U2 / India Mark 2,Stainless steel,No,8,,,,2
+230,U2 / India Mark 2,Stainless steel,Yes,9,25,3.348391533,3.348391533,2
+231,U2 / India Mark 2,Galvanized iron (GI),No,12,15.18412018,,15.18412018,2
+232,U2 / India Mark 2,Galvanized iron (GI),No,14,9.75,,9.75,2
