@@ -1,5 +1,5 @@
 # Supporting Information: Inter- and Intra-Rater Reliability of Handpump Functionality Tests
-This readme file was generated on 2022-07-05 by Samantha Wind
+This readme file was generated in 2022-07 by Samantha Wind
 
 ## GENERAL INFORMATION
 
