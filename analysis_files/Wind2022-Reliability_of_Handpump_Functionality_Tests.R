@@ -32,10 +32,12 @@ ds02<-read.csv("https://raw.githubusercontent.com/samanthawind/ugandahandpumps20
 ds03<-read.csv("https://raw.githubusercontent.com/samanthawind/ugandahandpumps2022/main/analysis_files/ds03.csv")
 
 # fix bh_id column name
-colnames(ds01)[colnames(ds01) == "ï..bh_id"] <- "bh_id"
-colnames(ds02)[colnames(ds02) == "ï..bh_id"] <- "bh_id"
-colnames(ds03)[colnames(ds03) == "ï..bh_id"] <- "bh_id"
+colnames(ds01)[colnames(ds01) == "Ã¯..bh_id"] <- "bh_id"
+colnames(ds02)[colnames(ds02) == "Ã¯..bh_id"] <- "bh_id"
+colnames(ds03)[colnames(ds03) == "Ã¯..bh_id"] <- "bh_id"
 
+# add "pumping depth" variable (num_pipes*3 meters)
+ds03$pump_depth <- ds03$num_pipes*3
 
 # borehole characteristics
 AllData_bh_traits <- ds03
@@ -105,7 +107,6 @@ AllData_bh_traits %>%
   summarise(n = n()) %>%
   mutate(freq = n/sum(n)*100)
 
-
 # pipe_mat (Pipe material)
 AllData_bh_traits %>%
   group_by(pipe_mat) %>%
@@ -124,7 +125,23 @@ AllData_bh_traits[is.na(AllData_bh_traits$num_pipes) == FALSE,] %>%
             Mean = mean(num_pipes), 
             SD = sd(num_pipes),
             Median = median(num_pipes),
-            IQR = IQR(num_pipes))
+            IQR = IQR(num_pipes),
+            Q_05 = quantile(num_pipes,0.05),
+            Q_25 = quantile(num_pipes,0.25),
+            Q_75 = quantile(num_pipes,0.75),
+            Q_95 = quantile(num_pipes,0.95))
+
+# pumping depth (meters)
+AllData_bh_traits[is.na(AllData_bh_traits$pump_depth) == FALSE,] %>%
+  summarise(n = n(),
+            Mean = mean(pump_depth), 
+            SD = sd(pump_depth),
+            Median = median(pump_depth),
+            IQR = IQR(pump_depth),
+            Q_05 = quantile(pump_depth,0.05),
+            Q_25 = quantile(pump_depth,0.25),
+            Q_75 = quantile(pump_depth,0.75),
+            Q_95 = quantile(pump_depth,0.95))
 
 # borehole age
 AllData_bh_traits[is.na(AllData_bh_traits$yrs_install) == FALSE,] %>%
@@ -150,21 +167,6 @@ AllData_bh_traits[is.na(AllData_bh_traits$yrs_min) == FALSE,] %>%
             Median = median(yrs_min),
             IQR = IQR(yrs_min))
 
-# conductivity
-All_summarydata[is.na(All_summarydata$conductivity) == FALSE,] %>%
-  summarise(n = n(),
-            Mean = mean(conductivity), 
-            SD = sd(conductivity),
-            Median = median(conductivity),
-            IQR = IQR(conductivity))
-
-# turbidity
-All_summarydata[is.na(All_summarydata$turbidity) == FALSE,] %>%
-  summarise(n = n(),
-            Mean = mean(turbidity), 
-            SD = sd(turbidity),
-            Median = median(turbidity),
-            IQR = IQR(turbidity))
 
 #################################
 ## Table 2 - test results #######
